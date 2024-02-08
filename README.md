@@ -4,19 +4,19 @@ Bem-vindo à Formação Desenvolvedor Fullstack da Digital College! Este reposit
 
 ## Estrutura do Curso 📚
 
-O curso é dividido em quatro [📂módulos](./modulos) principais, cada um abordando uma área específica do desenvolvimento fullstack:
+O curso é dividido em quatro 📂módulos principais, cada um abordando uma área específica do desenvolvimento fullstack:
 
-### Módulo 1: [📂Fundamentos do Desenvolvimento Web](./modulos/modulo-01/)
+### Módulo 1: 📂Fundamentos do Desenvolvimento Web 
 
-- **Unidade 1**: [📂 Introdução ao Desenvolvimento Web](./modulos/modulo-01/)
-- Unidade 2: HTML & CSS
-- Unidade 3: Git e GitHub
-- Unidade 4: Bibliotecas para HTML & CSS
+- **Unidade 1**: 📂 Introdução ao Desenvolvimento Web
+- Unidade 2: HTML & CSS ✅
+- Unidade 3: Git e GitHub ✅
+- Unidade 4: Bibliotecas para HTML & CSS ✅
 
 ### Módulo 2: Programação Front-End
 
-- Unidade 1: Lógica de Programação em Javascript
-- Unidade 2: Javascript
+- Unidade 1: Lógica de Programação em Javascript ✅
+- Unidade 2: Javascript ✅
 - Unidade 3: React
 
 ### Módulo 3: Desenvolvimento Back-End
@@ -46,38 +46,16 @@ Este repositório é organizado da seguinte forma:
 
 ```shell
 .
-└── modulos
-    ├── modulo-01
-    │   ├── unidade-01
-    │   │   ├── aulas
-    │   │   │   ├── 2023-06-17
-    │   │   │   │   ├── notas.md
-    │   │   │   │   ├── atividades|atividade.md
-    │   │   │   │   ├── codigo
-    │   │   │   │   └── desafios|desafio.md
-    │   │   │   └── 2023-06-24
-    │   │   │       ├── notas.md
-    │   │   │       ├── atividades|atividade.md
-    │   │   │       ├── codigo
-    │   │   │       └── desafios|desafio.md 
-    │   │   ├── avaliacoes
-    │   │   ├── desafios
-    │   │   ├── projetos
-    │   │   └── recursos
-    │   └── ...
-
+├── aulas
+│   ├── 2023-06-17
+│   ├── 2023-06-24
+│   └── 2024-02-11
+│
+├── projetos
+├── avaliacoes
+├── desafios
+└── recursos
 ```
-
-## Avaliação e Notas 📋
-
-A avaliação dos alunos será baseada em diferentes critérios:
-
-- Participação em sala de aula e envolvimento nas discussões 👥
-- Conclusão e entrega de atividades práticas e exercícios propostos ✅
-- Desenvolvimento e entrega dos projetos e desafios 🏆
-- Desempenho em provas e testes práticos 📝
-
-A nota final de cada aluno será calculada com base na combinação desses critérios.
 
 ## Comunicação e Suporte 🤝
 
