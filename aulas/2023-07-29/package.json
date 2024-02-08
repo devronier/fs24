@@ -1,0 +1,16 @@
+{
+  "name": "2023-07-29",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://imersao.ronierlima.dev",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "express": "^4.18.2"
+  }
+}
