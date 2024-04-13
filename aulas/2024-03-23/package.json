@@ -1,0 +1,14 @@
+{
+  "name": "2024-03-23",
+  "version": "1.0.0",
+  "description": "Aula de sábado",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
