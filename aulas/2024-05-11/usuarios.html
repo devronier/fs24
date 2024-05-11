@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários</title>
+</head>
+
+<body onload="buscarLista()">
+    <ul id="lista">
+
+    </ul>
+
+    <script>
+        async function buscarLista() {
+            const lista = document.getElementById("lista")
+
+            const token = localStorage.getItem("token")
+
+            const resposta = await fetch("http://localhost:8080/users", {
+                headers: {
+                    "token": token
+                }
+            })
+            const dados = await resposta.json()
+
+            lista.innerHTML = ``
+
+            dados.forEach(element => {
+                lista.innerHTML += `<li>${element.nome}</li>`
+            });
+        }
+    </script>
+</body>
+
+</html>
