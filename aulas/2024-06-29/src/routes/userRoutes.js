@@ -1,11 +1,10 @@
 const express = require("express");
 const UserController = require("../controllers/userController");
-const UserRepository = require("../repositories/userRepository");
 const UserService = require("../services/userService");
+const UserPrismaRepository = require("../repositories/userPrismaRepository");
 
 const userRoutes = express.Router();
-
-const userRepository = new UserRepository();
+const userRepository = new UserPrismaRepository();
 const userService = new UserService(userRepository);
 const userController = new UserController(userService);
 
