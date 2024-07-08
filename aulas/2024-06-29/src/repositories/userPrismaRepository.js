@@ -21,9 +21,10 @@ class UserPrismaRepository {
   findById = async (id) => {
     const resposta = await prisma.users.findUnique({
       where: {
-        id: id,
+        id: Number(id),
       },
     });
+
     return resposta;
   };
 }
